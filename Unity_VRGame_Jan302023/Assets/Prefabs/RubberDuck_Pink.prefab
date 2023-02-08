@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4601995790142568647}
   - component: {fileID: 9184339953226235583}
   - component: {fileID: 9184339953226235584}
+  - component: {fileID: -2285160245005309239}
   m_Layer: 0
   m_Name: RubberDuck_Pink
   m_TagString: Untagged
@@ -223,3 +224,19 @@ MonoBehaviour:
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
+--- !u!114 &-2285160245005309239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209251859463936872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d229d145cae8234cbbcaa0089a50dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pictureObject: {fileID: 0}
+  effectObject: {fileID: 0}
+  soundHit: {fileID: 0}
+  pictureAngle: {x: 0, y: 0, z: 0}

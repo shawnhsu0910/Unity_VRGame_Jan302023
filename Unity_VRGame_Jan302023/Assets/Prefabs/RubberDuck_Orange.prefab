@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 1543630373694542636}
   - component: {fileID: 1543630371802014517}
   - component: {fileID: 1543630371802014516}
+  - component: {fileID: -3421073700362885113}
   - component: {fileID: 1990891680}
   - component: {fileID: 1990891681}
+  - component: {fileID: 1485115919144237930}
   m_Layer: 0
   m_Name: RubberDuck_Orange
   m_TagString: Untagged
@@ -117,6 +119,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ce69d3c7a4f70ae40b6f97416c93c2c5, type: 3}
+--- !u!135 &-3421073700362885113
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543630373696802284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.8829686
+  m_Center: {x: 0, y: -0.14509292, z: 0.68039536}
 --- !u!114 &1990891680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,3 +238,19 @@ MonoBehaviour:
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
+--- !u!114 &1485115919144237930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543630373696802284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d229d145cae8234cbbcaa0089a50dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pictureObject: {fileID: 3062529591739899453, guid: 1c6c44213a30c894cb44906aee1fbb52, type: 3}
+  effectObject: {fileID: 100000, guid: 3156817f64ec68948ad6bb26569b9ef5, type: 3}
+  soundHit: {fileID: 0}
+  pictureAngle: {x: 0, y: -135, z: 0}
